@@ -1,0 +1,39 @@
+body {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  margin: 0;
+}
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: rgb(250, 187, 211);
+  padding: 0;
+}
+ul.header li a {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  padding: 30px;
+  display: inline-block;
+}
+.content {
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+.content h2 {
+  padding: 50px;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 0;
+}
+.active {
+  background-color: #00fff2;
+}
