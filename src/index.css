@@ -10,18 +10,25 @@ ul.header li {
   display: inline;
   list-style-type: none;
   margin: 0;
+  
 }
 ul.header {
   background-color: rgb(250, 187, 211);
   padding: 0;
+  
 }
 ul.header li a {
+  align-items: center;
   color: rgb(255, 255, 255);
   font-weight: bold;
-  font-size: large;
+  font-size: 30px;
+  font-family: 'Passion One', cursive;
   text-decoration: none;
   padding: 30px;
   display: inline-block;
+  box-shadow: 5px 5px 10px 2px rgb(154, 1, 168);
+  border-radius: 5%;
+  text-shadow: 2px 2px rgb(0, 0, 0);
 }
 .content {
   background-color: rgb(255, 255, 255);
